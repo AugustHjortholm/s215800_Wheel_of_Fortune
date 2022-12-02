@@ -1,6 +1,8 @@
 package com.example.s215800_wheeloffortune.ViewModel
 
-class AppViewModel {
+import androidx.navigation.NavHostController
+
+class AppViewModel (val navController: NavHostController){
     private var score = 0
     fun getScore(): Int{
         return score

@@ -13,6 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.compose.rememberNavController
 import com.example.s215800_wheeloffortune.ViewModel.AppViewModel
 
 @Composable
@@ -21,16 +22,16 @@ fun StartGameScreen(
 ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier
         .fillMaxSize()
-        .padding(10.dp, 0.dp)) {
+        .padding(0.dp, 20.dp, 0.dp, 0.dp)) {
         val painter = painterResource(id = R.drawable.wheel_of_fortune_logo)
         Image(painter = painter, contentDescription = "Wheel of Fortune Logo", modifier = Modifier
             .width(300.dp)
             .height(200.dp))
         Text(text = "By S215800, August Hjortholm", modifier = Modifier
-            .padding(10.dp))
+            .padding(0.dp, 30.dp, 0.dp, 0.dp))
         Text(text = "Score: " + viewModel.getScore(), modifier = Modifier
             .padding(10.dp))
-        OutlinedButton(onClick = { /*TODO*/ }, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow)) {
+        OutlinedButton(onClick = { viewModel.navController.navigate("choose_difficulty")}, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow)) {
             Text(text = "Start a game")
         }
     }
@@ -39,5 +40,5 @@ fun StartGameScreen(
 @Preview (showBackground = true)
 @Composable
 fun StartGameScreenPreview(){
-    StartGameScreen(AppViewModel())
+    StartGameScreen(AppViewModel(rememberNavController()))
 }

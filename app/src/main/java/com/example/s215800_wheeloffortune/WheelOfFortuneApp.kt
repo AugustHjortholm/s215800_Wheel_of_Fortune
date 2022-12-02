@@ -9,14 +9,14 @@ import com.example.s215800_wheeloffortune.ViewModel.AppViewModel
 @Composable
 fun WheelOfFortuneApp(){
 
-    val navController = rememberNavController()
-    val viewModel = AppViewModel()
+    val viewModel = AppViewModel(rememberNavController())
 
     //TODO
     NavHost(
-        navController = navController,
+        navController = viewModel.navController,
         startDestination = "start_screen"
     ) {
         composable("start_screen") { StartGameScreen(viewModel) }
+        composable("choose_difficulty") { ChooseDifficulty(viewModel) }
     }
 }
