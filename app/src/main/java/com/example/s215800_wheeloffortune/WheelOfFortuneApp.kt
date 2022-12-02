@@ -9,12 +9,13 @@ import androidx.navigation.compose.rememberNavController
 fun WheelOfFortuneApp(){
 
     val navController = rememberNavController()
+    val viewModel = AppViewModel()
 
     //TODO
     NavHost(
         navController = navController,
         startDestination = "start_screen"
     ) {
-        composable("start_screen") { StartGameScreen() }
+        composable("start_screen") { StartGameScreen(viewModel) }
     }
 }
