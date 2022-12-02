@@ -113,4 +113,26 @@
     <string name="anything_8">TECHNOLOGY</string>
     <string name="anything_9">JETPACK COMPOSE</string>
     <string name="anything_10">FEMINIST</string>
+
+    <string name="wheel_outcome_1">100</string>
+    <string name="wheel_outcome_2">100</string>
+    <string name="wheel_outcome_3">100</string>
+    <string name="wheel_outcome_4">200</string>
+    <string name="wheel_outcome_5">200</string>
+    <string name="wheel_outcome_6">300</string>
+    <string name="wheel_outcome_7">300</string>
+    <string name="wheel_outcome_8">400</string>
+    <string name="wheel_outcome_9">400</string>
+    <string name="wheel_outcome_10">500</string>
+    <string name="wheel_outcome_11">500</string>
+    <string name="wheel_outcome_12">600</string>
+    <string name="wheel_outcome_13">600</string>
+    <string name="wheel_outcome_14">700</string>
+    <string name="wheel_outcome_15">700</string>
+    <string name="wheel_outcome_16">800</string>
+    <string name="wheel_outcome_17">800</string>
+    <string name="wheel_outcome_18">900</string>
+    <string name="wheel_outcome_19">900</string>
+    <string name="wheel_outcome_20">1000</string>
+    <string name="wheel_outcome_21">Bankrupt</string>
 </resources>

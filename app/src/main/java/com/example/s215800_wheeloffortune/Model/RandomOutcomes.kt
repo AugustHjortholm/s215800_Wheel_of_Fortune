@@ -117,28 +117,28 @@ val words = mapOf<String, Array<String>>(
 )
 
 //Duplicate entries are there to increase the likelihood of them being picked (100 is in the list thrice so it's the most likely outcome)
-val wheelOptions = listOf<String>(
-    "1000",
-    "900",
-    "800",
-    "700",
-    "600",
-    "500",
-    "400",
-    "300",
-    "200",
-    "100",
-    "900",
-    "800",
-    "700",
-    "600",
-    "500",
-    "400",
-    "300",
-    "200",
-    "100",
-    "100",
-    "bankrupt"
+val wheelOptions: Set<String> = setOf(
+    Resources.getSystem().getString(R.string.wheel_outcome_1),
+    Resources.getSystem().getString(R.string.wheel_outcome_2),
+    Resources.getSystem().getString(R.string.wheel_outcome_3),
+    Resources.getSystem().getString(R.string.wheel_outcome_4),
+    Resources.getSystem().getString(R.string.wheel_outcome_5),
+    Resources.getSystem().getString(R.string.wheel_outcome_6),
+    Resources.getSystem().getString(R.string.wheel_outcome_7),
+    Resources.getSystem().getString(R.string.wheel_outcome_8),
+    Resources.getSystem().getString(R.string.wheel_outcome_9),
+    Resources.getSystem().getString(R.string.wheel_outcome_10),
+    Resources.getSystem().getString(R.string.wheel_outcome_11),
+    Resources.getSystem().getString(R.string.wheel_outcome_12),
+    Resources.getSystem().getString(R.string.wheel_outcome_13),
+    Resources.getSystem().getString(R.string.wheel_outcome_14),
+    Resources.getSystem().getString(R.string.wheel_outcome_15),
+    Resources.getSystem().getString(R.string.wheel_outcome_16),
+    Resources.getSystem().getString(R.string.wheel_outcome_17),
+    Resources.getSystem().getString(R.string.wheel_outcome_18),
+    Resources.getSystem().getString(R.string.wheel_outcome_19),
+    Resources.getSystem().getString(R.string.wheel_outcome_20),
+    Resources.getSystem().getString(R.string.wheel_outcome_21)
 )
 
 fun getWordFromCategory(category: String): String? {
@@ -147,5 +147,5 @@ fun getWordFromCategory(category: String): String? {
 }
 
 fun getWheelSpinOutcome(): String {
-    return wheelOptions.get(Random(Date().time).nextInt())
+    return wheelOptions.random()
 }
