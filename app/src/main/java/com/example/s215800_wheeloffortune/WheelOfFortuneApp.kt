@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.s215800_wheeloffortune.View.gameScreen
+import com.example.s215800_wheeloffortune.View.GameScreen
 import com.example.s215800_wheeloffortune.ViewModel.AppViewModel
 
 @Composable
@@ -22,6 +22,6 @@ fun WheelOfFortuneApp(){
         composable("choose_difficulty_easy") { ChooseDifficultyEasyScreen(viewModel) }
         composable("choose_difficulty_medium") { ChooseDifficultyMediumScreen(viewModel) }
         composable("choose_difficulty_hard") { ChooseDifficultyHardScreen(viewModel) }
-        composable("game") { gameScreen(viewModel) }
+        composable("game") { GameScreen(viewModel) }
     }
 }
