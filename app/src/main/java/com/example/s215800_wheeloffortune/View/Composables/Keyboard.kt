@@ -20,11 +20,11 @@ fun OnScreenKeyboard (startLetter: Char, endLetter: Char, viewModel: AppViewMode
             onClick = {
                 onClick()
                 viewModel.guessedLetterIndex = CheckIfLetterIsInWord(i, viewModel)
-                if (viewModel.guessedLetterIndex > 0) {
+                if (viewModel.guessedLetterIndex != 300) {
                     viewModel.setScore(viewModel.getScore()+viewModel.getWheelSpinResult().toInt())
+                    viewModel.guessedLetters[viewModel.guessedLetterIndex] = i.toString()
                 }
                 else {viewModel.life--}
-                viewModel.guessedLetters[viewModel.guessedLetterIndex] = i.toString()
             },
             border = BorderStroke(1.dp, Color.Black),
             colors = ButtonDefaults.outlinedButtonColors(

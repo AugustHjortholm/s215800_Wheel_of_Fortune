@@ -5,9 +5,9 @@ import androidx.navigation.NavHostController
 import com.example.s215800_wheeloffortune.R
 import java.util.*
 
-class AppViewModel (val navController: NavHostController){
+class AppViewModel (val navController: NavHostController) {
     private var score = 0
-    private var word = "test word for now"
+    private var word = ""
     private var wheelSpinResult = "100"
     var guessedLetterIndex = 0
     val guessedLetters = mutableListOf<String>()
@@ -15,32 +15,32 @@ class AppViewModel (val navController: NavHostController){
     var life = 3
 
 
-    fun getScore(): Int{
+    fun getScore(): Int {
         return score
     }
 
-    fun setScore(newScore: Int){
+    fun setScore(newScore: Int) {
         score = newScore
     }
 
-    fun getWord(): String{
+    fun getWord(): String {
         return word
     }
 
-    fun setWord(newWord: String?){
+    fun setWord(newWord: String?) {
         if (newWord != null) {
             word = newWord
         }
     }
 
-    fun getWheelSpinResult(): String{
+    fun getWheelSpinResult(): String {
         return wheelSpinResult
     }
 
 
 
-   /* val words = mapOf<String, Array<String>>(
-        "Food" to arrayOf<String>(
+    val words = mapOf(
+        "Food" to arrayOf(
             Resources.getSystem().getString(R.string.food_1),
             Resources.getSystem().getString(R.string.food_2),
             Resources.getSystem().getString(R.string.food_3),
@@ -148,10 +148,10 @@ class AppViewModel (val navController: NavHostController){
             Resources.getSystem().getString(R.string.anything_9),
             Resources.getSystem().getString(R.string.anything_10)
         ),
-    )*/
+    )
 
     //Duplicate entries are there to increase the likelihood of them being picked (100 is in the list thrice so it's the most likely outcome)
-    /*val wheelOptions: Set<String> = setOf(
+    val wheelOptions = listOf(
         Resources.getSystem().getString(R.string.wheel_outcome_1),
         Resources.getSystem().getString(R.string.wheel_outcome_2),
         Resources.getSystem().getString(R.string.wheel_outcome_3),
@@ -172,15 +172,14 @@ class AppViewModel (val navController: NavHostController){
         Resources.getSystem().getString(R.string.wheel_outcome_18),
         Resources.getSystem().getString(R.string.wheel_outcome_19),
         Resources.getSystem().getString(R.string.wheel_outcome_20),
-        Resources.getSystem().getString(R.string.wheel_outcome_21)
-    )*/
-/*
+        Resources.getSystem().getString(R.string.wheel_outcome_21))
+
     fun getWordFromCategory(category: String): String? {
-        val randomNumber = Random(Date().time).nextInt()
-        return words[category]?.get(randomNumber)
+        words[category]?.shuffle()
+        return words[category]?.random()
     }
 
     fun getWheelSpinOutcome(): String {
         return wheelOptions.random()
-    }*/
+    }
 }

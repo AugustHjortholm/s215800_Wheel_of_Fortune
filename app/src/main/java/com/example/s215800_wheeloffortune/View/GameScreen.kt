@@ -32,7 +32,7 @@ fun GameScreen(viewModel: AppViewModel) {
         }
     }
 
-    var spinValue by remember { mutableStateOf(viewModel.getWheelSpinResult()) }
+    var spinValue by remember { mutableStateOf("") }
     var haveSpun by remember { mutableStateOf(false) }
     var spinText by remember { mutableStateOf("the wheel landed on $spinValue") }
     var infoText by remember { mutableStateOf("Spin that wheel!") }
@@ -68,24 +68,28 @@ fun GameScreen(viewModel: AppViewModel) {
                 OnScreenKeyboard(startLetter = 'a', endLetter = 'g', viewModel = viewModel) {
                     haveSpun = false
                     infoText = "Spin that wheel!"
+                    spinValue = viewModel.getWheelSpinOutcome()
                 }
             }
             Row() {
                 OnScreenKeyboard(startLetter = 'h', endLetter = 'n', viewModel = viewModel) {
                     haveSpun = false
                     infoText = "Spin that wheel!"
+                    spinValue = viewModel.getWheelSpinOutcome()
                 }
             }
             Row() {
                 OnScreenKeyboard(startLetter = 'o', endLetter = 'u', viewModel = viewModel) {
                     haveSpun = false
                     infoText = "Spin that wheel!"
+                    spinValue = viewModel.getWheelSpinOutcome()
                 }
             }
             Row() {
                 OnScreenKeyboard(startLetter = 'v', endLetter = 'z', viewModel = viewModel) {
                     haveSpun = false
                     infoText = "Spin that wheel!"
+                    spinValue = viewModel.getWheelSpinOutcome()
                 }
             }
         } else {

@@ -23,10 +23,13 @@ fun ChooseDifficultyEasyScreen(viewModel: AppViewModel) {
         "Countries",
         "Top 100 Movies",
         {
+            viewModel.setWord(viewModel.getWordFromCategory("Food"))
             viewModel.navController.navigate("game")
         }, {
+            viewModel.setWord(viewModel.getWordFromCategory("Countries"))
             viewModel.navController.navigate("game")
         }, {
+            viewModel.setWord(viewModel.getWordFromCategory("Top 100 Movies"))
             viewModel.navController.navigate("game")
         })
 }
@@ -38,10 +41,13 @@ fun ChooseDifficultyMediumScreen(viewModel: AppViewModel) {
         "Cities",
         "Events",
         {
+            viewModel.setWord(viewModel.getWordFromCategory("Top 100 Songs"))
             viewModel.navController.navigate("game")
         }, {
+            viewModel.setWord(viewModel.getWordFromCategory("Cities"))
             viewModel.navController.navigate("game")
         }, {
+            viewModel.setWord(viewModel.getWordFromCategory("Events"))
             viewModel.navController.navigate("game")
         })
 }
@@ -53,10 +59,13 @@ fun ChooseDifficultyHardScreen(viewModel: AppViewModel) {
         "Swedish Cousine",
         "Anything",
         {
+            viewModel.setWord(viewModel.getWordFromCategory("Megawords"))
             viewModel.navController.navigate("game")
         }, {
+            viewModel.setWord(viewModel.getWordFromCategory("Swedish Cousine"))
             viewModel.navController.navigate("game")
         }, {
+            viewModel.setWord(viewModel.getWordFromCategory("Anything"))
             viewModel.navController.navigate("game")
         })
 }
