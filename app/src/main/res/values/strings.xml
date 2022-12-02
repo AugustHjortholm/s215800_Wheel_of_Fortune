@@ -134,5 +134,5 @@
     <string name="wheel_outcome_18">900</string>
     <string name="wheel_outcome_19">900</string>
     <string name="wheel_outcome_20">1000</string>
-    <string name="wheel_outcome_21">Bankrupt</string>
+    <string name="wheel_outcome_21">0</string>
 </resources>
