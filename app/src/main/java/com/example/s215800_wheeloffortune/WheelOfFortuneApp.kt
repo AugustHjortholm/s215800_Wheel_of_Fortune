@@ -18,5 +18,8 @@ fun WheelOfFortuneApp(){
     ) {
         composable("start_screen") { StartGameScreen(viewModel) }
         composable("choose_difficulty") { ChooseDifficulty(viewModel) }
+        composable("choose_difficulty_easy") { ChooseDifficultyEasy(viewModel) }
+        composable("choose_difficulty_medium") { ChooseDifficultyMedium(viewModel) }
+        composable("choose_difficulty_hard") { ChooseDifficultyHard(viewModel) }
     }
 }
