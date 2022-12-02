@@ -92,25 +92,25 @@
     <string name="megaword_9">IMMARCESCIBLE</string>
     <string name="megaword_10">UNCOMPARTMENTALIZED</string>
 
-    <string name="swedish_cousine_1">ICE CREAM</string>
-    <string name="swedish_cousine_2">BERRIES</string>
-    <string name="swedish_cousine_3">BURGER</string>
-    <string name="swedish_cousine_4">PIZZA</string>
-    <string name="swedish_cousine_5">SOUP</string>
-    <string name="swedish_cousine_6">COLESLAW</string>
-    <string name="swedish_cousine_7">SALAD</string>
-    <string name="swedish_cousine_8">SALMON</string>
-    <string name="swedish_cousine_9">BREAD</string>
-    <string name="swedish_cousine_10">STEAK</string>
+    <string name="swedish_cousine_1">SMULPAJ</string>
+    <string name="swedish_cousine_2">SEMLA</string>
+    <string name="swedish_cousine_3">FALUKORV</string>
+    <string name="swedish_cousine_4">PANNKAKOR</string>
+    <string name="swedish_cousine_5">PYTT I PANNA</string>
+    <string name="swedish_cousine_6">KLADDKAKA</string>
+    <string name="swedish_cousine_7">KORV STROGANOFF</string>
+    <string name="swedish_cousine_8">KALOPS</string>
+    <string name="swedish_cousine_9">FLYGANDE JAKOB</string>
+    <string name="swedish_cousine_10">SAFFRANSBULLAR</string>
 
-    <string name="anything_1">ICE CREAM</string>
-    <string name="anything_2">BERRIES</string>
-    <string name="anything_3">BURGER</string>
-    <string name="anything_4">PIZZA</string>
-    <string name="anything_5">SOUP</string>
-    <string name="anything_6">COLESLAW</string>
-    <string name="anything_7">SALAD</string>
-    <string name="anything_8">SALMON</string>
-    <string name="anything_9">BREAD</string>
-    <string name="anything_10">STEAK</string>
+    <string name="anything_1">PLAINTIFF</string>
+    <string name="anything_2">OSTRICH</string>
+    <string name="anything_3">GLOBAL EXPANSION</string>
+    <string name="anything_4">CONFRONTATION</string>
+    <string name="anything_5">EARTHQUAKE</string>
+    <string name="anything_6">SOFT ENVIROMENT</string>
+    <string name="anything_7">STRATEGIC NAUSEA</string>
+    <string name="anything_8">TECHNOLOGY</string>
+    <string name="anything_9">JETPACK COMPOSE</string>
+    <string name="anything_10">FEMINIST</string>
 </resources>
