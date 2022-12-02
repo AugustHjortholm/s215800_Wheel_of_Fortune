@@ -1,3 +1,116 @@
 <resources>
     <string name="app_name">s215800 - Wheel of Fortune</string>
+
+
+    <string name="choose_difficulty_easy">Easy</string>
+    <string name="choose_difficulty_medium">Medium</string>
+    <string name="choose_difficulty_hard">Hard</string>
+    <string name="choose_difficulty_easy_food">Food</string>
+    <string name="choose_difficulty_easy_countries">Countries</string>
+    <string name="choose_difficulty_easy_top_100_movies">Top 100 Movies</string>
+    <string name="choose_difficulty_medium_top_100_songs">Top 100 Songs</string>
+    <string name="choose_difficulty_medium_cities">Cities</string>
+    <string name="choose_difficulty_medium_events">Events</string>
+    <string name="choose_difficulty_hard_quote">Quotes</string>
+    <string name="choose_difficulty_hard_swedish_cousine">Swedish Cousine</string>
+    <string name="choose_difficulty_hard_anything">Anything</string>
+
+    <string name="food_1">ICE CREAM</string>
+    <string name="food_2">BERRIES</string>
+    <string name="food_3">BURGER</string>
+    <string name="food_4">PIZZA</string>
+    <string name="food_5">SOUP</string>
+    <string name="food_6">COLESLAW</string>
+    <string name="food_7">SALAD</string>
+    <string name="food_8">SALMON</string>
+    <string name="food_9">BREAD</string>
+    <string name="food_10">STEAK</string>
+
+    <string name="countries_1">DENMARK</string>
+    <string name="countries_2">RUSSIA</string>
+    <string name="countries_3">INDONESIA</string>
+    <string name="countries_4">BELGIUM</string>
+    <string name="countries_5">CANADA</string>
+    <string name="countries_6">CHINA</string>
+    <string name="countries_7">LEBANON</string>
+    <string name="countries_8">JAPAN</string>
+    <string name="countries_9">FRANCE</string>
+    <string name="countries_10">ITALY</string>
+
+    <string name="top_100_movies_1">THE GODFATHER</string>
+    <string name="top_100_movies_2">SCHINDLERS LIST</string>
+    <string name="top_100_movies_3">PULP FICTION</string>
+    <string name="top_100_movies_4">INCEPTION</string>
+    <string name="top_100_movies_5">FIGHT CLUB</string>
+    <string name="top_100_movies_6">FORREST GUMP</string>
+    <string name="top_100_movies_7">GOODFELLAS</string>
+    <string name="top_100_movies_8">INTERSTELLAR</string>
+    <string name="top_100_movies_9">THE GREEN MILE</string>
+    <string name="top_100_movies_10">THE DEPARTED</string>
+
+    <string name="top_100_songs_1">MACARENA</string>
+    <string name="top_100_songs_2">SHAPE OF YOU</string>
+    <string name="top_100_songs_3">WE BELONG TOGETHER</string>
+    <string name="top_100_songs_4">HOW DEEP IS YOUR LOVE</string>
+    <string name="top_100_songs_5">WE FOUND LOVE</string>
+    <string name="top_100_songs_6">SOMEBODY THAT I USED TO KNOW</string>
+    <string name="top_100_songs_7">DESPACITO</string>
+    <string name="top_100_songs_8">CALL ME MAYBE</string>
+    <string name="top_100_songs_9">BOOM BOOM POW</string>
+    <string name="top_100_songs_10">ALL ABOUT THAT BASS</string>
+
+    <string name="cities_1">ISTANBUL</string>
+    <string name="cities_2">RIO DE JANEIRO</string>
+    <string name="cities_3">LOS ANGELES</string>
+    <string name="cities_4">BANGKOK</string>
+    <string name="cities_5">HONG KONG</string>
+    <string name="cities_6">BAGHDAD</string>
+    <string name="cities_7">SINGAPORE</string>
+    <string name="cities_8">BARCELONA</string>
+    <string name="cities_9">WASHINGTON</string>
+    <string name="cities_10">LONDON</string>
+
+    <string name="events_1">THE NEOLITHIC REVOLUTION</string>
+    <string name="events_2">FALL OF ROME</string>
+    <string name="events_3">THE INDUSTRIAL REVOLUTION</string>
+    <string name="events_4">WORLD WAR ONE</string>
+    <string name="events_5">WORLD WAR TWO</string>
+    <string name="events_6">THE COLD WAR</string>
+    <string name="events_7">INVENTION OF THE WHEEL</string>
+    <string name="events_8">INVENTION OF ANTIBIOTICS</string>
+    <string name="events_9">THE VIETNAM WAR</string>
+    <string name="events_10">THE MOON LANDING</string>
+
+    <string name="megaword_1">HYPERCATALECTIC</string>
+    <string name="megaword_2">UNSOUTHEONED</string>
+    <string name="megaword_3">WHEREINSOOVER</string>
+    <string name="megaword_4">JOUISSANCE</string>
+    <string name="megaword_5">THEOLOGICOPHOBIA</string>
+    <string name="megaword_6">BICRESCENTIC</string>
+    <string name="megaword_7">ULTRAMICROSCOPE</string>
+    <string name="megaword_8">ABSORBEFACIENT</string>
+    <string name="megaword_9">IMMARCESCIBLE</string>
+    <string name="megaword_10">UNCOMPARTMENTALIZED</string>
+
+    <string name="swedish_cousine_1">ICE CREAM</string>
+    <string name="swedish_cousine_2">BERRIES</string>
+    <string name="swedish_cousine_3">BURGER</string>
+    <string name="swedish_cousine_4">PIZZA</string>
+    <string name="swedish_cousine_5">SOUP</string>
+    <string name="swedish_cousine_6">COLESLAW</string>
+    <string name="swedish_cousine_7">SALAD</string>
+    <string name="swedish_cousine_8">SALMON</string>
+    <string name="swedish_cousine_9">BREAD</string>
+    <string name="swedish_cousine_10">STEAK</string>
+
+    <string name="anything_1">ICE CREAM</string>
+    <string name="anything_2">BERRIES</string>
+    <string name="anything_3">BURGER</string>
+    <string name="anything_4">PIZZA</string>
+    <string name="anything_5">SOUP</string>
+    <string name="anything_6">COLESLAW</string>
+    <string name="anything_7">SALAD</string>
+    <string name="anything_8">SALMON</string>
+    <string name="anything_9">BREAD</string>
+    <string name="anything_10">STEAK</string>
 </resources>

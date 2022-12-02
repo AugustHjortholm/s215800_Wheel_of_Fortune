@@ -1,4 +1,4 @@
-package com.example.s215800_wheeloffortune
+package com.example.s215800_wheeloffortune.ViewModel
 
 class AppViewModel {
     private var score = 0
