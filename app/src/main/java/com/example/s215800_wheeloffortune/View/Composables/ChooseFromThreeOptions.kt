@@ -24,13 +24,13 @@ fun ChooseFromThreeOptions(option1Text: String, option2Text: String, option3Text
                 .width(200.dp)
                 .height(200.dp)
         )
-        OutlinedButton(onClick = option1Path, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow)) {
+        OutlinedButton(onClick = option1Path, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow), modifier = Modifier.width(200.dp).height(50.dp).padding(0.dp, 10.dp, 0.dp, 0.dp)) {
             Text(text = option1Text)
         }
-        OutlinedButton(onClick = option2Path, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow)) {
+        OutlinedButton(onClick = option2Path, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow), modifier = Modifier.width(200.dp).height(50.dp).padding(0.dp, 10.dp, 0.dp, 0.dp)) {
             Text(text = option2Text)
         }
-        OutlinedButton(onClick = option3Path, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow)) {
+        OutlinedButton(onClick = option3Path, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow), modifier = Modifier.width(200.dp).height(50.dp).padding(0.dp, 10.dp, 0.dp, 0.dp)) {
             Text(text = option3Text)
         }
     }

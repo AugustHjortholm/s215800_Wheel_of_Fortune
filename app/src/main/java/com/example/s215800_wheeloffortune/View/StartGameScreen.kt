@@ -31,7 +31,7 @@ fun StartGameScreen(
             .padding(0.dp, 30.dp, 0.dp, 0.dp))
         Text(text = "Score: " + viewModel.getScore(), modifier = Modifier
             .padding(10.dp))
-        OutlinedButton(onClick = { viewModel.navController.navigate("choose_difficulty")}, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow)) {
+        OutlinedButton(onClick = { viewModel.navController.navigate("choose_difficulty")}, border = BorderStroke(1.dp, Color.Black),colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Black, backgroundColor = Color.Yellow), modifier = Modifier.width(200.dp).height(40.dp)) {
             Text(text = "Start a game")
         }
     }
